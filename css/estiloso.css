@@ -1,33 +1,48 @@
 body{
-    background-color: rgb(128, 128, 128);
+    background-image: url('../img/wallpaper-brawl-stars-1920-1080-brawlers.jpg'); 
+    background-repeat: no-repeat;
 }
 
 header{
-    background-color: rgb(0, 0, 255);
     padding: 3%;
 }
 
+#menu ul li a {
+  padding: 0px;
+  margin:0px;
+  background-color: rgb(234, 239, 243);
+  list-style:none;
+}
+
+#menu ul li {display: inline;}
+
+#meny ul li a{
+ padding: 2px 10px;
+display: inline-block;
+text-decoration: none;
+border-bottom:3px solid #EDEDED;
+}
+
+
 .logo{
-    background-color: rgb(255, 255, 0);
+
 }
 
 nav{
-    background-color: rgb(0, 255, 255);
+
 }
 
  main{
-    background-color: rgb(173, 255, 47);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
  }
 
  section{
-    background-color: rgb(216, 112, 147);
+    
  }
 
  footer{
-    background-color: rgb(128, 0, 128);
     padding: 3%;
  }
 
@@ -39,5 +54,7 @@ nav{
     padding: 3%;
  }
 
-
+h1,h2{
+   line-height: 3;
+}
  
