@@ -48,13 +48,32 @@ nav{
 
  .cabecalho{
     padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
  }
 
  .rodape{
     padding: 3%;
  }
 
-h1,h2{
+h1,h2,h3,h4,h5,h6{
    line-height: 3;
 }
- 
+p{
+   line-height: 1,5;
+   font-size: 1.2em;
+   text-align: justify;
+}
+
+.logo img{
+   width: 30%;
+   height: auto;
+}
+figure{
+
+}
+
+.caixa-imagem{
+   
+}
